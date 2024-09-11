@@ -1,136 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="(link unavailable)" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mi Portafolio</title>
+<link rel="stylesheet" href="(link unavailable)">
 </head>
 <body>
-  <h1>My portafolio</h1>
-  <script src="(link unavailable)" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-   <form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity">
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip">
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Check me out
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </div>
-</form>
-  <div>
-      <!-- On tables -->
-<table class="table-primary">Zuley</table>
-<table class="table-secondary">Zapata</table>
-<table class="table-success">...</table>
-<table class="table-danger">...</table>
-<table class="table-warning">...</table>
-<table class="table-info">...</table>
-<table class="table-light">...</table>
-<table class="table-dark">...</table>
+<!-- Encabezado -->
+<header class="container-fluid bg-dark text-white p-5 text-center">
+<h1>Mi Portafolio</h1>
+<p>Un resumen de mis habilidades y experiencia</p>
+</header>
 
-<!-- On rows -->
-<tr class="table-primary">...</tr>
-<tr class="table-secondary">...</tr>
-<tr class="table-success">...</tr>
-<tr class="table-danger">...</tr>
-<tr class="table-warning">...</tr>
-<tr class="table-info">...</tr>
-<tr class="table-light">...</tr>
-<tr class="table-dark">...</tr>
+<!-- Sección de habilidades -->
+<section class="container mt-5">
+	<h2>Habilidades</h2>
+	<div class="row">
+		<div class="col-md-4">
+			<h3>Programación</h3>
+			<ul>
+				<li>Java</li>
+				<li>Python</li>
+				<li>JavaScript</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Diseño</h3>
+			<ul>
+				<li>Adobe Photoshop</li>
+				<li>Adobe Illustrator</li>
+				<li>Sketch</li>
+			</ul>
+		</div>
+		<div class="col-md-4">
+			<h3>Otras habilidades</h3>
+			<ul>
+				<li>Comunicación efectiva</li>
+				<li>Trabajo en equipo</li>
+				<li>Resolución de problemas</li>
+			</ul>
+		</div>
+	</div>
+</section>
 
-<!-- On cells (`td` or `th`) -->
-<tr>
-  <td class="table-primary">Zuley</td>
-  <td class="table-secondary">...</td>
-  <td class="table-success">...</td>
-  <td class="table-danger">...</td>
-  <td class="table-warning">...</td>
-  <td class="table-info">...</td>
-  <td class="table-light">...</td>
-  <td class="table-dark">...</td>
-</tr>
-    </div>
-<div class="form-floating mb-3">
-  <input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
-  <label for="floatingInputDisabled">Email address</label>
-</div>
-<div class="form-floating mb-3">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
-  <label for="floatingTextareaDisabled">Comments</label>
-</div>
-<div class="form-floating mb-3">
-  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled>Disabled textarea with some text inside</textarea>
-  <label for="floatingTextarea2Disabled">Comments</label>
-</div>
-<div class="form-floating">
-  <select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
-    <option selected>Open this select menu</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-  <label for="floatingSelectDisabled">Works with selects</label>
-</div>
-  <div class="alert alert-primary" role="alert">
-  A simple primary alert—check it out!
-</div>
-<div class="alert alert-secondary" role="alert">
-  A simple secondary alert—check it out!
-</div>
-<div class="alert alert-success" role="alert">
-  A simple success alert—check it out!
-</div>
-<div class="alert alert-danger" role="alert">
-  A simple danger alert—check it out!
-</div>
-<div class="alert alert-warning" role="alert">
-  A simple warning alert—check it out!
-</div>
-<div class="alert alert-info" role="alert">
-  A simple info alert—check it out!
-</div>
-<div class="alert alert-light" role="alert">
-  A simple light alert—check it out!
-</div>
-<div class="alert alert-dark" role="alert">
-  A simple dark alert—check it out!
-</div>
+<!-- Sección de experiencia -->
+<section class="container mt-5">
+	<h2>Experiencia</h2>
+	<div class="row">
+		<div class="col-md-6">
+			<h3>Desarrollador web</h3>
+			<p>Empresa XYZ (2020-2022)</p>
+			<ul>
+				<li>Desarrollé sitios web utilizando HTML, CSS y JavaScript</li>
+				<li>Trabajé con bases de datos MySQL</li>
+			</ul>
+		</div>
+		<div class="col-md-6">
+			<h3>Diseñador gráfico</h3>
+			<p>Empresa ABC (2018-2020)</p>
+			<ul>
+				<li>Diseñé materiales de marketing utilizando Adobe Creative Suite</li>
+				<li>Trabajé con clientes para entender sus necesidades de diseño</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- Sección de educación -->
+<section class="container mt-5">
+	<h2>Educación</h2>
+	<div class="row">
+		<div class="col-md-6">
+			<h3>Universidad XYZ</h3>
+			<p>Grado en Ciencias de la Computación (2015-2019)</p>
+		</div>
+		<div class="col-md-6">
+			<h3>Cursos en línea</h3>
+			<ul>
+				<li>Curso de JavaScript en Codecademy</li>
+				<li>Curso de Diseño UX en Udemy</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<!-- Pie de página -->
+<footer class="container-fluid bg-dark text-white p-5 text-center">
+	<p>&copy; 2023 Mi Portafolio</p>
+</footer>
+
+<script src="(link unavailable)"></script>
+<script src="(link unavailable)"></script>
+
 </body>
 </html>
