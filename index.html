@@ -1,105 +1,128 @@
 <!DOCTYPE html>
 <html lang="es">
-<link href="(link unavailable)" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link href="(link unavailable)" rel="stylesheet"
+  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mi Portafolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio</title>
 </head>
 <body>
-  <img src="https://pixabay.com/es/illustrations/icono-usuario-mujer-avatar-negocio-5359554/" class="img-fluid" alt="Sin imagen">
-<!-- Información Personal -->
-<section class="container mt-5">
-  <span class="badge text-bg-primary">Información Personal</span>
-  <div class="row">
-  <div class="col-md-4">
-<img src="foto_perfil.jpg" alt="Foto de perfil" class="img-fluid">
-</div>
-<div class="col-md-8">
-<span class="badge text-bg-primary">Datos personales</span>
-  <p>Nombre: Yuyeimi Perez</p>
-  <p>Identificación: #105374783459</p>
-  <p>Dirección: Calle 2c 1a 745345, Santander de Quilichao / Cauca</p>
-  <p>Teléfono: 746534875394</p>
-  <p>Correo: @(link unavailable)</p>
-  <p>Profesión: DESARROLLADOR DE SOFTWARE</p>
-  <p>Perfil: Ingeniera en sistemas con énfasis en desarrollo de Software</p>
-  <p>Sexo: Femenino</p>
-  <p>Estado Civil: Soltera</p>
-  <p>RH: O+ </p>
-  <p>Fecha de nacimiento: 12/02/1990</p>
-  <p>Nivel de estudio: Universitaria</p>
-  </div>
-</div>
-</section>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Inicio
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Información Personal -->
+  <section class="container mt-5">
+    <span class="badge text-bg-primary">Información Personal</span>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="img/foto.jpg" alt="Foto de perfil" class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <span class="badge text-bg-primary">Datos personales</span>
+        <p>Nombre: Yuyeimi Perez</p>
+        <p>Identificación: #105374783459</p>
+        <p>Dirección: Calle 2c 1a 745345, Santander de Quilichao / Cauca</p>
+        <p>Teléfono: 746534875394</p>
+        <p>Correo: @(link unavailable)</p>
+        <p>Profesión: DESARROLLADOR DE SOFTWARE</p>
+        <p>Perfil: Ingeniera en sistemas con énfasis en desarrollo de Software</p>
+        <p>Sexo: Femenino</p>
+        <p>Estado Civil: Soltera</p>
+        <p>RH: O+ </p>
+        <p>Fecha de nacimiento: 12/02/1990</p>
+        <p>Nivel de estudio: Universitaria</p>
+      </div>
+    </div>
+  </section>
 
-<!-- Formación -->
-<section class="container mt-5">
-<span class="badge text-bg-primary">Formación</span>  
-  <table class="table table-striped">
-    <thead>
-      <tr>
+  <!-- Formación -->
+  <section class="container mt-5">
+    <span class="badge text-bg-primary">Formación</span>
+    <table class="table table-striped">
+      <thead>
+        <tr>
           <th>Tipo de formación</th>
           <th>Nivel académico</th>
           <th>Título</th>
           <th>Institución</th>
-      </tr>
-    </thead>
-<tbody>
-      <tr>
-        <td>Universitaria</td>
-        <td>Pregrado</td>
-        <td>Ingeniera en sistemas</td>
-        <td>Universidad XYZ</td>
-      </tr>
-      <tr>
-        <td>Técnica</td>
-        <td>Técnico</td>
-        <td>Desarrollo de software</td>
-        <td>Instituto ABC</td>
-      </tr>
-</tbody>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Universitaria</td>
+          <td>Pregrado</td>
+          <td>Ingeniera en sistemas</td>
+          <td>Universidad XYZ</td>
+        </tr>
+        <tr>
+          <td>Técnica</td>
+          <td>Técnico</td>
+          <td>Desarrollo de software</td>
+          <td>Instituto ABC</td>
+        </tr>
+      </tbody>
     </table>
-    </section>
+  </section>
 
-<!-- Experiencia -->
-<section class="container mt-5">
-<span class="badge text-bg-primary">Experiencia</span> 
-<table class="table table-striped">
-<thead>
-<tr>
-<th>Tipo de experiencia</th>
-<th>Cargo</th>
-<th>Periodo</th>
-<th>Desde</th>
-<th>Hasta</th>
-<th>Organización</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Profesional</td>
-<td>Desarrollador de software</td>
-<td>2020-2022</td>
-<td>01/01/2020</td>
-<td>31/12/2022</td>
-<td>Empresa XYZ</td>
-</tr>
-<tr>
-<td>Prácticas</td>
-<td>Practicante</td>
-<td>2019</td>
-<td>01/06/2019</td>
-<td>31/08/2019</td>
-<td>Empresa ABC</td>
-</tr>
-</tbody>
-</table>
-</section>
+  <!-- Experiencia -->
+  <section class="container mt-5">
+    <span class="badge text-bg-primary">Experiencia</span>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Tipo de experiencia</th>
+          <th>Cargo</th>
+          <th>Periodo</th>
+          <th>Desde</th>
+          <th>Hasta</th>
+          <th>Organización</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Profesional</td>
+          <td>Desarrollador de software</td>
+          <td>2020-2022</td>
+          <td>01/01/2020</td>
+          <td>31/12/2022</td>
+          <td>Empresa XYZ</td>
+        </tr>
+        <tr>
+          <td>Prácticas</td>
+          <td>Practicante</td>
+          <td>2019</td>
+          <td>01/06/2019</td>
+          <td>31/08/2019</td>
+          <td>Empresa ABC</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-<!-- Familia -->
-<section class="container mt-5">
-  <span class="badge text-bg-primary">Familia</span> 
+  <!-- Familia -->
+  <section class="container mt-5">
+    <span class="badge text-bg-primary">Familia</span>
     <table class="table table-striped">
       <thead>
         <tr>
@@ -109,29 +132,30 @@
           <th>Parentesco</th>
         </tr>
       </thead>
-  <tbody>
-<tr>
-<td>123456789</td>
-<td>Juan Pérez</td>
-<td>746534875394</td>
-<td>Padre</td>
-</tr>
-<tr>
-<td>987654321</td>
-<td>Maria Rodriguez</td>
-<td>3124567890</td>
-<td>Madre</td>
-</tr>
-</tbody>
-</table>
-</section>
+      <tbody>
+        <tr>
+          <td>123456789</td>
+          <td>Juan Pérez</td>
+          <td>746534875394</td>
+          <td>Padre</td>
+        </tr>
+        <tr>
+          <td>987654321</td>
+          <td>Maria Rodriguez</td>
+          <td>3124567890</td>
+          <td>Madre</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 
-<!-- Pie de página -->
-<footer class="container-fluid bg-dark text-white p-5 text-center">
-<p>&copy; 2023 Mi Portafolio</p>
-</footer>
+  <!-- Pie de página -->
+  <footer class="container-fluid bg-dark text-white p-5 text-center">
+    <p>&copy; 2023 Mi Portafolio</p>
+  </footer>
 
-<script src="(link unavailable)"></script>
-<script src="(link unavailable)"></script>
+  <script src="(link unavailable)"></script>
+  <script src="(link unavailable)"></script>
 </body>
+
 </html>
